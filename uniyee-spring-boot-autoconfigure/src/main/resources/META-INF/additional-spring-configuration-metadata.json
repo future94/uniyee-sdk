@@ -1,0 +1,15 @@
+{
+  "properties": [
+    {
+      "name": "uniyee.url",
+      "type": "java.lang.String",
+      "defaultValue": "http://localhost:8083",
+      "description": "request url address."
+    },
+    {
+      "name": "uniyee.merchant",
+      "type": "java.util.List<com.uniyee.spring.boot.autoconfigure.UniyeeConfigurationProperties.MerchantConfig>",
+      "sourceType": "com.uniyee.spring.boot.autoconfigure.UniyeeConfigurationProperties"
+    }
+  ]
+}
